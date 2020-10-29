@@ -1,5 +1,6 @@
-# tfp_shocks
+# Macroeconomic Response to TFP Shocks
 A set of R scripts that illustrates the effects of two different types of TFP shocks on macroeconomic measures.
+
 
 This code plots the response of core macroeconomic variables to changes in total factor productivity (TFP). A local projection approach is used to compute the response of these variables at various horizons to “shocks” to TFP. I use two different measures of the "shock" series:
 
