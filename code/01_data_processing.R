@@ -1,4 +1,8 @@
-
+# This script does the following:
+# 1) Loads raw TFP and macroeconomic data
+# 2) Converts all variables to a quarterly frequency
+# 3) Merges together TFP and macroeconomic data 
+# 4) Creates adjusted versions of indicators (e.g. taking logs of macro variables)
 
 # Load FORD TFP Shock data
 ford_shocks <- read_csv("./input/ford_tfp.csv")
