@@ -1,5 +1,7 @@
-
-# Use custom function to calculate impulse responses
+# This script uses the function written in script #2 and given paramters entered
+# in the master script to plot impulse responses for each macroeconomic variable.
+# The output is a single plot for each type of TFP shock, where each macro variable
+# is a subplot (facet).
 
 # Get a data frame with responses using Ford TFP shocks
 ford_results <- impulse_response(merged_data, shocks = "ford", H = H)
