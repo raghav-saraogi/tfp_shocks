@@ -1,5 +1,5 @@
 # The function below computes the theta0 coefficients (coefficient for shock at t)
-# for each dependent variable for all h periods. It takes as inputs a time series
+# for each dependent variable for all periods 'h' since the shock. It takes as inputs a time series
 # dataset with all variables required to run the regressions, including the shocks
 # the type of shock and the number of horizons H.
 
